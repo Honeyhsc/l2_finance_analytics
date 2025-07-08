@@ -1,0 +1,56 @@
+# ----------------------------
+# Ignore Data Files and Folders
+# ----------------------------
+data/
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+*.h5
+*.npy
+*.pkl
+
+# ----------------------------
+# Ignore Model Checkpoints & Outputs
+# ----------------------------
+*.h5
+*.pt
+*.pth
+*.joblib
+*.sav
+
+# ----------------------------
+# Ignore Jupyter Notebook Artifacts
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Ignore Python Bytecode
+# ----------------------------
+__pycache__/
+*.py[cod]
+
+# ----------------------------
+# Ignore Virtual Environments
+# ----------------------------
+venv/
+env/
+.venv/
+
+# ----------------------------
+# Ignore Logs and Temporary Files
+# ----------------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------------
+# Ignore IDE/System-Specific Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
